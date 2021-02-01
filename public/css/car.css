@@ -1,0 +1,154 @@
+body{
+	background-image:url('fondo.jpg'); font-family:'Open Sans',sans-serif; margin: 20px; 
+}
+.btn{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2E4053;
+  background-color: #82E0AA;
+  border-radius: 6px;
+  border: 5px double #5C6BC0;
+}
+.btn{
+  color: #5C6BC0;
+  background-color: #CE93D8;
+}
+			* {
+				margin:0px;
+				padding:0px;
+			}
+#mar {
+		    text-align: center;
+				width:1100px;
+				height:4150px;
+				margin:80px;
+				margin-right:1%;
+				margin-left: 1%;
+				margin-top:150px;
+				background-color:#B3CCB6;
+			    }
+			.container{ width: 100%; max-width: 1200px;height: 430px; display: flex; flex-wrap: wrap; justify-content: center;margin: auto; }
+			.conteiner,.card{ width: 360px;height:460px; border-radius: 8px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+			overflow: hidden;margin: 28px;text-align: center; transition: all 0.25s ; }
+			.conteiner,.card:hover{
+				transform: translateY(-15px); box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+			}
+            .conteiner ,.card img{ width:338px; height:338px }
+            .conteiner ,.card h4{
+            	font-weight: 600;
+            }
+            .conteiner ,.card p{
+            	padding: 0 1rem;
+            	font-size: 18px;
+            	font-weight: 300;
+            	border-radius: 2px;
+
+            }
+            .conteiner,.card a{
+            	font-weight: 500;
+            	text-decoration: none;
+            }
+            .divic {
+              height: 4rem;
+              background-color: #e2e2e2
+              }
+		    .mar {
+		    width:100%;
+				height:90%;
+				padding-right:2%;
+				padding-left: 9%;
+				background-color:#979797;
+				border-radius:7px;
+				font-family:Arial, Helvetica, sans-serif ;
+			    }
+				.row{
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					margin: auto;
+
+				}
+				#nav{
+			position: absolute;
+   right:2px; height:390px; top: 20px; display: flex;
+				}
+#nav ul {
+  list-style-type: none;
+  margin:0px;
+  padding:10px;
+  width: 300px;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+ 
+  }
+
+#nav li a {
+  display: block;
+  color: #000;
+  background-color: #C2DFB2;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+#pie{
+  position:relative;
+  top:100px;
+  left:-30px;
+  border-radius:11px;
+  background:linear-gradient(-45deg,#B3B5B3,#AAADAB,#95CD9C,#8EB28E,#B3B5B3,#AAADAB);
+  width:1280px;
+  height:350px;
+  padding: 100px;
+   display: flex;}
+#pie h3{
+
+  size: 20px;
+  color:#2C3E50 ;
+  margin-right:9px;
+  text-decoration-color:#A5C4CB;
+  padding:4px;
+  display: flex;
+  font-family: sans-serif;
+}
+.colum1{display: flex;
+     max-width: 400px;
+      margin left:  20px; 
+      left: -260px;
+      background color: red; 
+      width:540px; 
+      height:100px;}
+
+  .colum2{
+ max-width:400px;
+ width: 400px;
+ margin-left:15px;
+  }
+  .fac{ margin-top: 20px;
+    display: flex;
+  }
+  .fac label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#2C3E50;
+    display: flex;
+    font-family: fantasy;
+
+  }
+  .fac img{display: flex;width:30px; height:30px; }
+.footer{
+ position:relative;
+  top:55px;
+  left:-359px;
+  background-color:#AAADAB;
+  width:1490px;
+  height:60px;
+  display: flex;
+  text-align: center;
+  color:#2C3E50; }
