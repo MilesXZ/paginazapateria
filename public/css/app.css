@@ -410,4 +410,92 @@ height:350px;
 padding: 100px;
 display: flex;}
 
-/*-----------------------------*/
+/*-----------Registrate-----------------*/
+
+
+
+
+form{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width:400px;
+	padding:33px;
+	border-radius:20px;
+	margin:auto;
+	background:linear-gradient(-45deg,#B3B5B3,#AAADAB,#95CD9C,#8EB28E,#B3B5B3,#AAADAB);
+}
+
+
+form label{
+	width:74px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form input[type="reset"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+
+form input[type="reset"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	
+	resize:none;
+	display:block;
+}
+img{
+		width:30px; height:30px; display:initial;
+}
+
+
+#ventana{
+    width: 500px; height:430px; position: absolute;background:linear-gradient(-45deg,#B3B5B3,#AAADAB,#95CD9C,#8EB28E,#B3B5B3,#AAADAB);top:200px; right: 100px;  border-radius: 20px; 
+   display: none;}
+  #barr{ width: 500px; height:40px; position: relative; display: flex; background-color:black; }
+  .conte{ width: 500px; height:300px;  border-color: red; top: 20px; }
+  .conte h1{ font-size:30px; font-family: serif; position: absolute; top:50px;  left:40px; color:#008080;}
+  .conte h3{
+    font-family:serif; font-size:19px; position: absolute; top:300px; color: #1C2833; left: 10px;
+  }

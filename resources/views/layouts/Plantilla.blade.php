@@ -16,7 +16,7 @@
 
       <li><a href="{{route('zapateria.inicio')}}">Inicio</a></li>
        <li><i><a href="{{route('zapateria.conocenos')}}">Conocenos</a></i> </li>
-       <li><i><a href="Loginzap.html">Registrate</a></i></li> 
+       <li><i><a href="{{route('zapateria.registrate')}}">Registrate</a></i></li> 
       <li><i><a href="ubi.html">Ubicacion</a></i></li> 
     <li><a href="carritobueno.html">Catalogo Completo</a></li>
     <li><a href="Carrito-Ellas"> Mujer</a>

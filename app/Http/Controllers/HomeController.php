@@ -13,4 +13,8 @@ class HomeController extends Controller
     public function conocenos(){
         return view('zapatos.conocenos');
     }
+
+    public function registrate(){
+        return view('zapatos.registrate');
+    }
 }

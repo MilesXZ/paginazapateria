@@ -18,3 +18,6 @@ Route::get('zapateria/conocenos', [HomeController::class,'conocenos']);
 Route::get('zapateria/inicio', [HomeController::class,'inicio'])->name('zapateria.inicio'); 
 
 Route::get('zapateria/conocenos', [HomeController::class,'conocenos'])->name('zapateria.conocenos');
+
+Route::get('zapateria/registrate', [HomeController::class,'registrate'])->name('zapateria.registrate');
+
