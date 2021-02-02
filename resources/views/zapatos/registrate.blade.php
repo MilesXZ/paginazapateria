@@ -5,7 +5,7 @@
 @section('contenido')
 
 <form action="#" target="" method="get" name="formDatosPersonales">
-	<div class="centrado" style="text-align: center; width:200; height:50;background-color: #5D6D7E; opacity:0.5; border-radius: 20px;">
+	<div class="centrado" style="text-align: center; width:200; height:50;background-color: #5D6D7E; opacity:0.5; border-radius: 20px; float:auto;">
 		<img src="{{url('css/usu.jpg')}}" style="width:60px; height:60px; border-radius:20px;" ><h4>Registrate Aquí</h4></div>
 
   <p style="text-align: center;">___________| Nombres |___________</p>
@@ -13,7 +13,7 @@
 	<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
   <p style="text-align: center;">___________| Apellidos |___________</p>
 	<label  style="text-align: center;" for="apellidos">Apellido Paterno:</label>
-	<input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+	<input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/><P>
 	<label  style="text-align: center;" for="apellidos">Apellido Materno:</label>
 	<input type="text" name="apellidos" id="apellidos" placeholder="2do Apellido"/>
   <p style="text-align: center;">_______| Correo Electronico |_______</p>
@@ -42,5 +42,5 @@ function cerrar(){
   <img src="{{url('css/miku.gif')}}" style="position: absolute; top:75px; width:220px; height: 230px; left:60px; "> 
 </div>
 </div>
-
+<br><br><br><br><br><br><br>
 @endsection

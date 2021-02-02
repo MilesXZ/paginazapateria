@@ -3,13 +3,12 @@
 @section('titulo','Conocenos')
 
 @section('contenido')
-
+<br><br><br><br><br><br><br><br>
 <div id="conocenos">
     <div class="cont">
     <h1>_____conocenos________</h1>
     <cite>Zapateria tulip fue creada a base de un sueño colectivo de diversas personas.<p> Emprender un negocio donde los empleados se sientan parte de una familia mientras que brindamos un servicio de calidad a nuestros clientes<p></cite>
     <br><br>
-   <h4><a href="">__Unetenos__</a> </h4><h4><a href="{{route('zapateria.inicio')}}">__Inicio__</a></h4>
     </div> 
 </div>
 <div id="conocenos2">
@@ -30,5 +29,6 @@ Crear asociaciones con los mejores proveedores y clientes del mercado, para prop
 valor agregado a los servicios y productos que comercializamos.<p>
 Respetar el medioambiente a través de un desarrollo sostenible en<p> todas las etapas involucradas en proceso productivo.</cite>	
 </div></div>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><b><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 @endsection
